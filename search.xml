@@ -28,6 +28,396 @@
     </entry>
     
     
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>随机图片</title><style type="text/css">img {width: 500px;height: 300px;}</style></head><body><img src="images/course01.png" ><script type="text/javascript">let pic = document.querySelector('img')function getRandom(min, max){return Math.floor(Math.random() * (max - min + 1))+ min}let num = getRandom(1, 8)pic.src = `images/course0${num}.png`</script></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>随机点名</title><style type="text/css">div{display: inline-block;width: 150px;height: 30px;border: 1px solid pink;vertical-align: middle;text-align: center;line-height: 30px;}</style></head><body>抽中的选手：<div></div><script type="text/javascript">let box = document.querySelector('div')function getRandom(min, max){return Math.floor(Math.random() * (max - min + 1))+ min}let arr = ['zy', 'hz', 'gy', 'zf', 'mc', 'lb', 'cc', 'pink']let random = getRandom(0, arr.length - 1)box.innerHTML = arr[random]arr.splice(random, 1)</script></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta http-equiv="X-UA-Compatible" content="ie=edge">    <title>学车在线首页</title>    <link rel="stylesheet" href="style.css">    <style>    </style></head><body>    <!-- 4. box核心内容区域开始 -->    <div class="box w">        <div class="box-hd">            <h3>精品推荐</h3>            <a href="#">查看全部</a>        </div>        <div class="box-bd">            <ul class="clearfix">                <li>                    <img src="images/course01.png" alt="">                    <h4>                        Think PHP 5.0 博客系统实战项目演练                    </h4>                    <div class="info">                        <span>高级</span> • <span>1125</span>人在学习                    </div>                </li>                <li>                    <img src="images/course01.png" alt="">                    <h4>                        Think PHP 5.0 博客系统实战项目演练                    </h4>                    <div class="info">                        <span>高级</span> • <span>1125</span>人在学习                    </div>                </li>                <li>                    <img src="images/course01.png" alt="">                    <h4>                        Think PHP 5.0 博客系统实战项目演练                    </h4>                    <div class="info">                        <span>高级</span> • <span>1125</span>人在学习                    </div>                </li>                <li>                    <img src="images/course01.png" alt="">                    <h4>                        Think PHP 5.0 博客系统实战项目演练                    </h4>                    <div class="info">                        <span>高级</span> • <span>1125</span>人在学习                    </div>                </li>                <li>                    <img src="images/course01.png" alt="">                    <h4>                        Think PHP 5.0 博客系统实战项目演练                    </h4>                    <div class="info">                        <span>高级</span> • <span>1125</span>人在学习                    </div>                </li>                <li>                    <img src="images/course01.png" alt="">                    <h4>                        Think PHP 5.0 博客系统实战项目演练                    </h4>                    <div class="info">                        <span>高级</span> • <span>1125</span>人在学习                    </div>                </li>                <li>                    <img src="images/course01.png" alt="">                    <h4>                        Think PHP 5.0 博客系统实战项目演练                    </h4>                    <div class="info">                        <span>高级</span> • <span>1125</span>人在学习                    </div>                </li>                <li>                    <img src="images/course01.png" alt="">                    <h4>                        Think PHP 5.0 博客系统实战项目演练                    </h4>                    <div class="info">                        <span>高级</span> • <span>1125</span>人在学习                    </div>                </li>            </ul>        </div>    </div></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[* {    margin: 0;    padding: 0;}.w {    width: 1200px;    margin: auto;}body {    background-color: #f3f5f7;}li {    list-style: none;}a {    text-decoration: none;}.clearfix:before,.clearfix:after {    content:"";    display:table;   }  .clearfix:after {    clear:both;  }  .clearfix {     *zoom:1;  }    .header {    height: 42px;    /* background-color: pink; */    /* 注意此地方会层叠 w 里面的margin */    margin: 30px auto;}.logo {    float: left;    width: 198px;    height: 42px;}.nav {    float: left;    margin-left: 60px;}.nav ul li {    float: left;    margin: 0 15px;}.nav ul li a {    display: block;    height: 42px;    padding: 0 10px;    line-height: 42px;    font-size: 18px;    color: #050505;   }.nav ul li a:hover {    border-bottom: 2px solid #00a4ff;    color: #00a4ff;}/* search搜索模块 */.search {    float: left;    width: 412px;    height: 42px;    margin-left: 70px;}.search input {    float: left;    width: 345px;    height: 40px;    border: 1px solid #00a4ff;    border-right: 0;    color: #bfbfbf;    font-size: 14px;    padding-left: 15px;}.search button {    float: left;    width: 50px;    height: 42px;    /* 按钮button默认有个边框需要我们手动去掉 */    border: 0;    background: url(images/btn.png);}.user {    float: right;    line-height: 42px;    margin-right: 30px;    font-size: 14px;    color: #666;}/* banner区域 */.banner {    height: 421px;    background-color: #1c036c;}.banner .w {    height: 421px;    background: url(images/banner2.png) no-repeat top center;}.subnav {    float: left;    width: 190px;    height: 421px;    background: rgba(0,0,0, 0.3);}.subnav ul li {    height: 45px;    line-height: 45px;    padding: 0 20px;}.subnav ul li a {    font-size: 14px;    color: #fff;}.subnav ul li a span {    float: right;}.subnav ul li a:hover {    color: #00a4ff;}.course {    float: right;    width: 230px;    height: 300px;    background-color: #fff;    /* 浮动的盒子不会有外边距合并的问题 */    margin-top: 50px;}.course h2 {    height: 48px;    background-color: #9bceea;    text-align: center;    line-height: 48px;    font-size: 18px;    color: #fff;}.bd {    padding: 0 20px;}.bd ul li {    padding: 14px 0;    border-bottom: 1px solid #ccc;}.bd ul li h4 {    font-size: 16px;    color: #4e4e4e;}.bd ul li p {    font-size: 12px;    color: #a5a5a5;}.bd .more {    display: block;    height: 38px;    border: 1px solid #00a4ff;    margin-top: 5px;    text-align: center;    line-height: 38px;    color: #00a4ff;    font-size: 16px;    font-weight: 700;}/* 精品推荐模块 */.goods {    height: 60px;    background-color: #fff;    margin-top: 10px;    box-shadow: 0 2px 3px 3px rgba(0,0,0, 0.1);    /* 行高会继承， 会继承给3个孩子 */    line-height: 60px;}.goods h3 {    float: left;    margin-left: 30px;    font-size: 16px;    color: #00a4ff;}.goods ul {    float: left;    margin-left: 30px;}.goods ul li {    float: left;}.goods ul li a {    padding: 0 30px;    font-size: 16px;    color: #050505;    border-left: 1px solid #ccc;}.mod {    float: right;    margin-right: 30px;    font-size: 14px;    color: #00a4ff;}.box {    margin-top: 30px;}.box-hd {    height: 45px;}.box-hd h3 {    float: left;    font-size: 20px;    color: #494949;}.box-hd a {    float: right;    font-size: 12px;    color: #a5a5a5;    margin-top: 10px;    margin-right: 30px;}/* 把li 的父亲ul 修改的足够宽一行能装开5个盒子就不会换行了 */.box-bd ul {    width: 1225px;}.box-bd ul li {    position: relative;    top: 0;    float: left;    width: 228px;    height: 270px;    background-color: #fff;    margin-right: 15px;    margin-bottom: 15px;    transition: all .3s;   }.box-bd ul li:hover {    top: -8px;    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3);}.box-bd ul li img {    width: 100%;}.box-bd ul li h4 {    margin: 20px 20px 20px 25px;    font-size: 14px;    color: #050505;    font-weight: 400;}.box-bd .info {    margin: 0 20px 0 25px;    font-size: 12px;    color: #999;}.box-bd .info span {    color: #ff7c2d;}/* footer 模块 */.footer {    height: 415px;    background-color: #fff;}.footer .w {    padding-top: 35px;}.copyright {    float: left;}.copyright p {    font-size: 12px;    color: #666;    margin: 20px 0 15px 0;}.copyright .app {    display: block;    width: 118px;    height: 33px;    border: 1px solid #00a4ff;    text-align: center;    line-height: 33px;    color: #00a4ff;    font-size: 16px;}.links {    float: right;}.links dl {    float: left;    margin-left: 100px;}.links dl dt {    font-size: 16px;    color: #333;    margin-bottom: 5px;}.links dl dd a {    color: #333;    font-size: 12px;}]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>综合案例</title><style type="text/css">* {margin: 0;padding: 0;}.w {width: 1200px;margin: auto;}body {background-color: #f3f5f7;}li {list-style: none;}a {text-decoration: none;}.clearfix:before,.clear:after {content: "";display: table;}.clear:after {clear: both;}.clearfix {*zoom:1;}.header {height: 42px;margin: 30px auto;}.logo {float: left;width: 198px;height: 42px;}.nav {float: left;margin-left: 60px;}.nav ul li {float: left;margin: 0 15px;}.nav ul li a {display: block;height: 42px;padding: 0 10px;line-height: 42px;font-size: 18px;}</style></head><body><div class="box w"><div class="box-hd"></div></div></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title></head><body><script type="text/javascript">let seconds = +prompt(`请输入总的秒数：`)function getTime(t){let h = parseInt(t / 60 /60 % 60)let m = parseInt(t /60 % 60)let s = parseInt(t % 60)h < 10 ? '0' + h : hm < 10 ? '0' + m : ms < 10 ? '0' + s : sreturn `计算之后的时间是${h}小时${m}分${s}秒`}document.write(getTime(seconds))</script></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>柱形图</title><style type="text/css">*{margin: 0;padding: 0;}.box{display: flex;width: 700px;height: 300px;border-left: 1px solid pink;border-bottom: 1px solid pink;margin: 50px auto;justify-content: space-around;align-items: flex-end;text-align: center;}.box>div{display: flex;width: 50px;background-color: pink;flex-direction: column;justify-content: space-between;}.box div span{margin-top: -20px;} .box div h4 {margin-bottom: -35px;width: 70px;margin-left: -10px;}</style></head><body><!-- <div class="box"><div style="height: 123px;"><span>123</span><h4>第1季度</h4></div><div style="height: 156px;"><span>156</span><h4>第2季度</h4></div><div style="height: 120px;"><span>120</span><h4>第3季度</h4></div><div style="height: 210px;"><span>210</span><h4>第4季度</h4></div></div> --></body><script type="text/javascript">let num = 4let arr = []let i = 0for(i;i < 4;i++){arr.push(prompt(`请输入第${i + 1}季度的数据`))}document.write(`<div class="box">`)for(i = 0;i < 4;i++){document.write(`<div style="height: ${arr[i]}px;"><span>${arr[i]}</span><h4>第${i + 1}季度</h4></div>`)}document.write(`</div>`)</script></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title></head><body><script type="text/javascript">let price = +prompt('请输入商品价格：')let num = +prompt('请输入商品数量：')let address = +prompt('请输入收货地址：')let total = price * numdocument.write(`<table border="1" cellspacing="0" cellpadding="0" ><caption><h2>订单确认</h2></caption><tr><td>商品名称</td><td>商品价格</td><td>商品数量</td><td>总价</td><td>收货地址</td></tr><tr><td>小米手机青春PLUS</td><td>${price}</td><td>${num}</td><td>${total}</td><td>${address}</td></tr></table>`)</script></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[*{margin: 0;padding: 0;}a{text-decoration: none;}.w{width: 1200px;margin: auto;}.header{height: 42px;background-color: pink;margin: 30px auto;}.logo{float: left;width: 198px;height: 42px;background-color: purple;}li{list-style: none;}.nav{float: left;margin-left: 60px;}.nav ul li{float: left;margin: 0 15px;}.nav ul li a{display: block;height: 42px;padding: 0 10px;line-height: 42px;font-size: 18px;color: #050505;}.nav ul li a:hover{border-bottom: 2px solid #00a4ff;color: #00a4ff;}.search{float: left;width: 412px;height: 42px;background-color: skyblue;margin-left: 50px;}.search input{width: 360px;height: 40px;border: 1px solid skyblue;border-right: 0;color: #bfbfbf;font-size: 14px;padding-left: 15px;}]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>学车在线首页</title><link rel="stylesheet" type="text/css" href="style.css"/></head><body><div class="header w"><div class="logo"><img src="../images/logo.png" ></div><div class="nav"><ul><li><a href="#">首页</a></li><li><a href="#">课程</a></li><li><a href="#">职业规划</a></li></ul></div><div class="search"><input type="text" value="输入关键词"/><button type="button"></button></div></div><script type="text/javascript">alert('努力，奋斗')</script></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><style type="text/css">*{padding: 0;margin: 0;}.box{width: 1226px;height: 615px;background-color: pink;margin: 0 auto;}.left{width: 234px;height: 615px;background-color: purple;float: left;}.right{width: 992px;height: 615px;background-color: skyblue;float: left;}.right>div{float: left;width: 234px;height: 300px;background-color: pink;margin-left: 14px;margin-bottom: 14px;}</style></head><body><div class="box"><div class="left">左青龙</div><div class="right"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div></div></div></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><style type="text/css">*{margin: 0;padding: 0;}li{list-style: none;}.box{width: 1226px;height: 285px;background-color: pink;}.box li {width: 296px;height: 285px;background-color: purple;float: left;margin-right: 14px;}.box .last{margin-right: 0;}</style></head><body><ul class="box"><li>1</li><li>2</li><li>3</li><li class="last">4</li></ul></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><style type="text/css">*{margin: 0;padding: 0;}.box{width: 248px;height: 163px;border: 1px solid #ccc;margin: 100px auto;}.box h3{height: 32px;border-bottom: 1px dotted #ccc;font-weight: 400;font-size: 14px;line-height: 32px;padding-left: 15px;}.box ul li a{font-size: 12px;color: #666666;text-decoration: none;}li{list-style: none;}.box ul li a:hover{text-decoration: underline;}.box ul li {height: 23px;line-height: 23px;padding-left: 20px;}.box ul {margin-top: 7px;}</style></head><body><div class="box"><h3>评优购快报</h3><ul><li><a href="#">爆款耳机5折秒</a></li><li><a href="#">母亲节，健康好礼低至5折</a></li><li><a href="#">爆款耳机5折秒</a></li><li><a href="#">9.9元洗100张照片</a></li><li><a href="#">长虹智能空调立省1000</a></li></ul></div></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title></head><style type="text/css">*{margin: 0px;padding: 0px;}body{background-color: #f5f5f5;}a{color: #333;text-decoration: none;}.box{width: 298px;height: 415px;margin: 100px auto;background-color: #fff;}.box img{width: 80%;}.review{height: 70px;font-size: 14px;padding: 0 28px;margin-top: 30px;}.appraise{font-size: 12px;color: #b0b0b0;margin-top: 20px;padding: 0 28px;}.info{font-size: 14px;margin-top: 15px;padding: 0 28px;}.info h4{display: inline-block;font-weight: 400;}.info span{color: #ff6700;}.info em{font-style: normal;color: #ebe4e0;margin: 0 6px 0 15px;}</style><body><div class="box"><img src="images/1.jpg" ><div class="review">快递牛，整体不错蓝牙可以说秒连。红米给力</div><div class="appraise">来自于177384232的评价</div><div class="info"><h4><a href="#">Redmi AirDots真无线...</a></h4><em>|</em><span>99.9元</span></div></div></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><style type="text/css">.nav{height: 41px;border-top: 3px solid #ff8500;border-bottom: 1px solid #edeef0;background-color: #fcfcfc;line-height: 41px;}.nav a{display: inline-block;height: 41px;padding: 0 20 px;font-size: 12px;color: #4c4c4c;text-decoration: none;}.nav a:hover{background-color: #eee;color: #ff8500;}</style></head><body><div class="nav"><a href="#">新浪导航</a><a href="#">手机新浪网</a><a href="#">移动客户端</a><a href="#">微博</a><a href="#">三个字</a></div></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><style type="text/css">.nav{display: inline-block;}</style></head><body><div class="nav"><a href="#">五彩导航</a><a href="#">五彩导航</a><a href="#">五彩导航</a><a href="#">五彩导航</a><a href="#">五彩导航</a></div></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>简单小米边侧栏</title><style type="text/css">a{display: block;width: 200px;height: 40px;background-color: #55585a;font-size: 14px;color: #fff;text-decoration: none;padding-left: 30px;;line-height: 40px;}a:hover{background-color: #ff6700;}</style></head><body><a href="#">手机 电话卡</a><a href="#">电视 盒子</a><a href="#">笔记本 平板</a><a href="#">出行 穿戴</a><a href="#">智能 路由器</a><a href="#">健康 儿童</a><a href="#">耳机 音响</a></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><style type="text/css">body {font: 16px/28px 'Microsoft YaHei';}h1 {font-weight: 400;text-align: center;}.gray {color: #888888;font-size: 12px;text-align: center;}a {text-decoration: none;}.search {color: #666;width: 170px;}.btn {font-weight: 700;}p {text-indent: 2em;}.pic {text-align: center;}.footer {color: #888888;font-size: 12px;}</style></head><body><h1>1</h1><a href="https://www.baidu.com">百度</a><h2>2</h2>asdasd<h1>北方高温明日达鼎盛 京津冀多地地表温度将超60°C</h1><div class="gray">2019-07-03 16:31:47 来源:<a href="#">中国天气网</a><input type="text" value="请输入查询条件...." class="search" /><button type="button" class="btn">搜索</button></div><hr><p>中国天气网讯今天（3日），华北，黄准多地出现高温天气，截至下午2点，北京，天津，郑州等气温突破35°C。预报显示，今后三天（3-5日），这一带的高温天气将继续发酵，高温范围以及强度将在4日达到鼎盛，预计北京，天津，石家庄，济南等地明天的最高气温有望突破38°C,其中北京和石家庄的最高气温还有望创今年以来的新高</p><h4>气温41.4°C！地温66.5！北京强势迎来七月首个高温日</h4><p>今天，华北，黄准一带的高温持续发酵，截至今天下午2点，陕西北部，山西西南部，河北南部，北京，天津，山东西部，河南北部最高气温已普遍超过35°C，大城市中，北京，天津，郑州均迎来高温日</p><p class="pic"><img src="down.jpg"></p><p>在阳光暴晒下，地表温度也逐渐走高。今天下午两点，华北黄准大部地区的地表温度都在50°C以上，部分地区地表温度甚至超过60°C。其中，河北衡水地表温度高达68.3°C，天津站和北京站附近的地表温度分别高达66.6°C和66.5°C</p><h4>明日热度再升级！京津冀携手冲击38°C+</h4><p>中国天气网气象分析师王伟跃介绍，明天（4日），华北，黄准地区35°C以上的高温天气还继续升级，并进入鼎盛阶段，高温强度和范围都将发展到最强。明天，北京南部，天津大部，河北中部和南部，山东中部和西部，山西南部属地，河南北部，东北部分地区的最高气温都将达到或超过35°C</p><p>不过，专家提醒，济南被雨水天气完美绕开，因此未来一周，当地的高温还会天天上岗。在此提醒当地居民注意防暑降温，防范持续高温带来的各种不利影响。（文/张慧 数据支持/王伟跃 胡啸）审核/刘文静 张文丽</p><p class="footer">本文来源：中国天气网 责任编辑：刘真_NO56</p><div>asdasda</div><div>asdasda</div><div>asdasda</div><script type="text/javascript">let num = 1let count = 0while(num < 101){if(num % 10 !== 1){count += num}num++}alert(count)</script></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><style type="text/css">.box{width: 150px;height: 150px;font-size: 30px;}.red{background-color: red;}.green{background-color: green;}.blue{background-color: blue;}</style></head><body><div class="box red">红色</div><div class="box green">绿色</div><div class="box blue">蓝色</div></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>注册页面</title></head><body>    <h4>青春不常在，抓紧谈恋爱</h4>    <table width="600">        <!-- 第一行 -->        <tr>            <td>性别：</td>            <td>                <input type="radio" name="sex"><img src="#"> 男                <input type="radio" name="sex"><img src="#"> 女            </td>        </tr>        <!-- 第二行 -->        <tr>            <td>生日：</td>            <td>                <select>                    <option>请选择年份</option>                    <option>2001</option>                    <option>2000</option>                    <option>1999</option>                 </select>                <select>                    <option>请选择月份</option>                    <option>1</option>                    <option>2</option>                    <option>3</option>                 </select>                <select>                    <option>请选择日份</option>                    <option>1</option>                    <option>2</option>                    <option>3</option>                 </select>            </td>        </tr>        <!-- 第三行 -->        <tr>            <td>所在地区：</td>            <td><input type="text" value="北京思密达"></td>        </tr>        <!-- 第四行 -->        <tr>            <td>婚姻状况</td>            <td>                <input type="radio" name="marry">未婚                <input type="radio" name="marru">已婚                <input type="radio" name="marru">离婚            </td>        </tr>        <!-- 第五行 -->        <tr>            <td>学历：</td>            <td><input type="text"></td>        </tr>        <!-- 第六行 -->        <tr>            <td>喜欢的类型：</td>            <td>                <input type="checkbox" name="love"> 妩媚的                <input type="checkbox" name="love"> 可爱的                <input type="checkbox" name="love"> 小鲜肉                <input type="checkbox" name="love"> 老腊肉                <input type="checkbox" name="love" checked> 都喜欢            </td>        </tr>        <!-- 第七行 -->        <tr>            <td>个人简介</td>            <td>                <textarea>个人简介</textarea>            </td>        </tr>        <!-- 第八行 -->        <tr>            <td></td>            <td>                <input type="submit" name="免费注册">            </td>        </tr>        <!-- 第九行 -->        <tr>            <td></td>            <td>                <input type="checkbox" checked>   我同意注册条款和会员加入标准            </td>        </tr>        <!-- 第十行 -->        <tr>            <td></td>            <td><a href="#">我是会员，立即登录</a></td>        </tr>        <!-- 第十行 -->        <tr>            <td></td>            <td>                <h5>我承诺</h5>                <ul>                    <li>年满18岁，单身</li>                    <li>抱着严肃的态度</li>                    <li>真诚寻找另一半</li>                </ul>            </td>        </tr>    </table></body></html>   ]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>表单控件-input</title></head><body>        <form action="xxx.php" method="get">        用户名:<input type="text" name="username" value="请输入用户名" maxlength="5"><br>        密码:<input type="password" name="pwd"> <br>        性别:男<input type="radio" name="sex" value="男"> 女<input type="radio" name="sex" value="女">        人妖<input type="radio" name="sex" value="人妖" checked="checked"> <br>        爱好:吃饭<input type="checkbox" name="hobby" value="吃饭"> 睡觉<input type="checkbox" name="hobby">        打豆豆<input type="checkbox" name="hobby" checked="checked"> <br>        <input type="submit" value="免费注册">        <input type="reset" value="重新填写">    </form></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>小说排行榜</title></head><body>        <table align="center" cellspacing="0" width="500" height="100" border="1">            <thead>                <tr>                    <th>排名</th>                    <th>关键词</th>                    <th>趋势</th>                    <th>今日搜索</th>                    <th>最近七日</th>                    <th>相关链接</th>                </tr>            </thead>           <tbody>            <tr>                <td colspan="2">1 鬼吹灯</td>                <td><img src="down.jpg" alt="向下" width="50" height="50"></td>                <td>456</td>                <td rowspan="2">123</td>                <td><a href="https://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MCwyLDEsNiwzLDQsNSw4LDcsOQ%3D%3D&kw=%E9%AC%BC%E5%90%B9%E7%81%AF" target="_blank"> 贴吧                                    </a><a href="https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E9%AC%BC%E5%90%B9%E7%81%AF&step_word=&hs=0&pn=0&spn=0&di=7136437450519347201&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=2597089312%2C1428355805&os=2254964161%2C248694428&simid=4211106690%2C698019196&adpicid=0&lpn=0&ln=1607&fr=&fmq=1664275614137_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%3A%2F%2Fp26.toutiaoimg.com%2Forigin%2Fpgc-image%2F6a9f061c7862426686266c4de9f0f96f%3Ffrom%3Dpc%26refer%3Dhttp%3A%2F%2Fp26.toutiaoimg.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Dauto%3Fsec%3D1666867616%26t%3Df6b73f5844cc0bfe387f4a5c4be11296&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bzi57qtiwg2_z%26e3Bp5rAzdH3Fr5fpAzdH3Fcl8ml_z%26e3Bip4s&gsm=100000000000001&rpstart=0&rpnum=0&islist=&querylist=&nojc=undefined" target="_blank">                     图片 </a><a href="https://baike.baidu.com/item/%E9%AC%BC%E5%90%B9%E7%81%AF/10790?fr=aladdin" target="_blank"> 百科 </a></td>            </tr>            <tr>                <td >1 </td>                <td>鬼吹灯</td>                <td><img src="down.jpg" alt="向下" width="50" height="50"></td>                <td>456</td>                <td><a href="https://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MCwyLDEsNiwzLDQsNSw4LDcsOQ%3D%3D&kw=%E9%AC%BC%E5%90%B9%E7%81%AF" target="_blank"> 贴吧                                    </a><a href="https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E9%AC%BC%E5%90%B9%E7%81%AF&step_word=&hs=0&pn=0&spn=0&di=7136437450519347201&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=2597089312%2C1428355805&os=2254964161%2C248694428&simid=4211106690%2C698019196&adpicid=0&lpn=0&ln=1607&fr=&fmq=1664275614137_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%3A%2F%2Fp26.toutiaoimg.com%2Forigin%2Fpgc-image%2F6a9f061c7862426686266c4de9f0f96f%3Ffrom%3Dpc%26refer%3Dhttp%3A%2F%2Fp26.toutiaoimg.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Dauto%3Fsec%3D1666867616%26t%3Df6b73f5844cc0bfe387f4a5c4be11296&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bzi57qtiwg2_z%26e3Bp5rAzdH3Fr5fpAzdH3Fcl8ml_z%26e3Bip4s&gsm=100000000000001&rpstart=0&rpnum=0&islist=&querylist=&nojc=undefined" target="_blank">                     图片 </a><a href="https://baike.baidu.com/item/%E9%AC%BC%E5%90%B9%E7%81%AF/10790?fr=aladdin" target="_blank"> 百科 </a></td>            </tr>           </tbody>        </table></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <table align="center" border="1" cellpadding="5" cellspacing="0">        <tr> <th>姓名</th> <th>性别</th> <th>年龄</th></tr>        <tr> <td>xzh</td> <td>男</td> <td>18</td></tr>        <tr> <td>xxy</td> <td>男</td> <td>18</td></tr>    </table></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>超链接标签</title></head><body>    <a href="http://wwww.baidu.com" target="_blank">百度</a>    <a href="#"></a>    <a href="http://wwww.baidu.com"><img src="img.jpg" alt="百度"></a></body></html> ]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>图像标签和路径</title></head><body>    <img src="img2.jpg" alt="我是XZH" title="牛批">    <img src="img.jpg" alt="我是XZH" title="牛批" width="100" height="100" border="5">    <img src="img1.jpg" alt="我是XZH" title="牛批" width="100" height="100" border="25"></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>div和span</title></head><body>    <div>这是头部</div>    <div>这是头部</div>    <span>今日价格</span>    <span>今日价格</span></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>文本格式化标签</title></head><body>    <strong>加粗</strong>    <b>加粗</b>    <em>倾斜</em>    <i>倾斜</i>    <del>删除线</del>    <s>删除线</s>    <ins>下划线</ins>    <u>下划线</u></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title></head><body>    <h1>水花61</h1>    <h4>数据统计</h4>    <p>库里</p>    <p>汤普森</p>    <h4>兄弟对决</h4>    <p>库里兄弟</p>    <p>但在西决</p>    <p>作者pink老师<br>2019-8-8</p></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>标题标签</title></head><body>    <h1>一标签</h1>    <h2>二</h2>    <h4>四</h4>    <h5>五</h5>    <h6>六</h6>    <p>第一段</p>    <p>第二段</p></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width= , initial-scale=1.0">    <title>我利用VScode创建的第一个页面</title></head><body>    写代码是一件非常快乐的事</body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
   
   
     
